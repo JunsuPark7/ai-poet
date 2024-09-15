@@ -1,7 +1,7 @@
 # from dotenv import load_dotenv
 # load_dotenv()
 
-from langchain_openai import ChatOpenAI  # 최신 ChatOpenAI 클래스
+from langchain.chat_models import ChatOpenAI  # 최신 ChatOpenAI 클래스
 import streamlit as st
 
 chat_model = ChatOpenAI()  # 여기 API 키 입력
